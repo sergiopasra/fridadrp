@@ -1,0 +1,13 @@
+{
+  "name": "H2G",
+  "type": "component",
+  "description": "Detector configuration",
+  "class": "fridadrp.instrument.components.FridaDetector",
+  "uuid": "79411117-50d4-481d-bd78-d06b1660ae13",
+  "date_start": null,
+  "date_end": null,
+  "properties": [
+    {"id": "shape", "depends": [], "values": [2048, 2048]},
+    {"id": "ron", "depends":  ["readmode"], "values": {"A":  23, "B":  100}}
+  ]
+}
